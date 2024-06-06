@@ -21,5 +21,5 @@ To view and edit the project files, you can use any code editor such as Eclipse 
 
 ## Authors 👥
 - **Y0U5S3F** - [Y0U5S3F](https://github.com/Y0U5S3F)
-- **YoNexuss** - [YoNexuss](https://github.com/YoNexuss)
+- **YoNexuss** - [YoNexuss](https://github.com/oussemazarrouki)
 - **Rippouzza** - [Rippouzza](https://github.com/Rippouzza)
