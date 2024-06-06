@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body {
+    min-height: 100vh;
+    background-color: black;
+    margin: 34px 64px;
+}
+
+html .card{
+    border:none;
+    width: 500px;
+    padding:40px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: #0F1114;
+    border: 3px solid #212529;
+}
+html label, html h6{
+    color:white;
+}
+html h1{
+    color: #E7FE58;
+}
+html #emailHelp{
+    color:#d4d5d7;
+}
+html .title{
+    margin-bottom: 15px;
+}
+html .btn-custom {
+    color: #000;
+    background-color: #E7FE58;
+    margin-top: 10px;
+}
+.html .input-class{
+    margin-bottom:10px;
+}
+
+.login-background {
+    background-image: url('../assets/bw.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+html .logo, html .logo:visited {
+    font-size: 24px;
+    font-weight: 600;
+    color: white !important;
+    text-decoration: none !important;
+    cursor: pointer;  
+}
+
+html .green-span {
+    color: #E7FE58;
+}
+
+html .button-custom{
+    float:right;
+}

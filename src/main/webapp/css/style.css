@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body {
+    min-height: 100vh;
+    background-color: black;
+    margin: 34px 64px;
+}
+
+html .logo, .logo:visited {
+    font-size: 24px;
+    font-weight: 600;
+    color: white !important;
+    text-decoration: none !important;
+    cursor: pointer;  
+}
+
+html .green-span {
+    color: #E7FE58;
+}
+
+html .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+}
+
+html .nav-links li {
+    display: inline-block;
+    padding: 0 15px; 
+}
+
+html .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+html .nav-links li a:hover {
+    color: #F3FF95;
+}
+
+html .table-title {
+  margin-top: 94px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+html .table-container{
+  display: flex;
+  flex-direction: column;
+  margin-right: 120px;
+  margin-left: 120px;
+}
+
+html .striped-table {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+html .striped-table th,
+html .striped-table td {
+  padding: 8px;
+  color: #fff;
+  border-bottom: 1pt solid white;
+  border-top: 1pt solid white;
+  background-color: #000;
+  text-align: center;
+}
+html .striped-table th{
+  border-bottom: 1pt solid #fff;
+  border-top: 1pt solid #a4acb5;
+}
+
+html .button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+html table :last-child >:last-child > td {
+  border-bottom: 1pt solid #fff;
+}
+
+
+ html .form-control:focus {border-color:rgba(100,100,100,1)!important;
+    -webkit-box-shadow: none!important;
+        -moz-box-shadow: none!important;
+        box-shadow: none!important;
+    }
+    
+    
+html .modal-button{
+    background-color: #E7FE58;
+    margin-top: 20px;
+}
+html .input-group{
+    margin-top:15px;
+}
+
+html .modal-title{
+    color:white;
+    text-align: center;
+    margin-top: 30px;
+}
+html .modal-content{
+    background-color: #0F1114;
+}
+html .modal-header{
+    border-color: #0F1114;
+}
+html .btn-custom {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 5px ;
+  margin-right: 13px;
+  padding: 1rem;
+}
+html .form-control:focus {border-color:rgba(100,100,100,1)!important;
+  -webkit-box-shadow: none!important;
+      -moz-box-shadow: none!important;
+      box-shadow: none!important;
+  }

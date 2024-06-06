@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body {
+    min-height: 100vh;
+    background-color: black;
+    margin: 54px 64px;
+}
+
+html .text-box{
+    position: relative;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+html .text-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+html .feature-title{
+    color:#D6F526;
+    font-size: 36px;
+    font-weight: 500;
+}
+html .feature-text{
+    color:white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+html .logo, .logo:visited {
+    font-size: 24px;
+    font-weight: 600;
+    color: white !important;
+    text-decoration: none !important;
+    cursor: pointer;  
+}
+
+html .green-span {
+    color: #E7FE58;
+}
+
+html .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+}
+
+html .nav-links li {
+    display: inline-block;
+    padding: 0 15px; 
+}
+
+html .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+html .nav-links li a:hover {
+    color: #F3FF95;
+}
+
+.padding {
+    padding: 3rem !important;
+}
+
+html .active-green {
+    color: green;
+}
+  
+html .inactive-red {
+    color: red;
+}
+
+html .user-card-full {
+    overflow: hidden;
+    background-color: #000;
+}
+html .card-title{
+    margin-bottom: 10px;
+    font-weight: 600;
+    color:#E7FE58;
+    background-color: #1c1c1c;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;;
+
+}
+html .card-info{
+    background-color: #1c1c1c;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;;
+    margin-bottom: 10px;
+}
+
+html .card {
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+html .m-r-0 {
+    margin-right: 0px;
+}
+
+html p, h6 {
+    color: white;
+}
+
+html .user-card-full .user-profile {
+    border-radius: 5px;
+}
+
+html .bg-c-lite-green {
+    background-color: #1c1c1c;
+}
+
+html .user-profile {
+    padding: 20px 0;
+}
+
+html .card-block {
+    padding: 1.25rem;
+}
+
+html .m-b-25 {
+    margin-bottom: 25px;
+}
+
+html .img-radius {
+    border-radius: 5px;
+    border: 0.7px solid #3a3a3a;
+}
+
+@media only screen and (min-width: 1400px) {
+    p {
+        font-size: 14px;
+    }
+}
+
+html .card-block {
+    padding: 1.25rem;
+}
+
+html .b-b-default {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+html .m-b-20 {
+    margin-bottom: 20px;
+}
+
+html .p-b-5 {
+    padding-bottom: 5px !important;
+}
+
+html .card .card-block p {
+    line-height: 25px;
+}
+
+html .m-b-10 {
+    margin-bottom: 10px;
+}
+
+html .text-muted {
+    color: #919aa3 !important;
+}
+
+html .f-w-600 {
+    font-weight: 600;
+}
+
+html .m-t-40 {
+    margin-top: 20px;
+}
+
+html .m-b-10 {
+    margin-bottom: 10px;
+}
+
+html .m-t-40 {
+    margin-top: 20px;
+}

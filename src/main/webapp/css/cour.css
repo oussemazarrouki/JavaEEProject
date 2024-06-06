@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body {
+    min-height: 100vh;
+    background-color: black;
+    margin: 34px 64px;
+}
+
+html .header-css{
+    background-color: black;
+}
+
+html .logo, html .logo:visited {
+    font-size: 24px;
+    font-weight: 600;
+    color: white !important;
+    text-decoration: none !important;
+    cursor: pointer;  
+}
+
+html .green-span {
+    color: #E7FE58;
+}
+
+html .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+}
+
+html .nav-links li {
+    display: inline-block;
+    padding: 0 15px; 
+}
+
+html .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+html .nav-links li a:hover {
+    color: #F3FF95;
+}
+
+
+html .text-box{
+    position: relative;
+    text-align: center;
+    margin-top: 150px;
+}
+
+html .text-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+html .feature-title{
+    color:#D6F526;
+    font-size: 36px;
+    font-weight: 500;
+}
+html .feature-text{
+    color:white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+html .card{
+    background-color: #0F1114;
+    border: 0.7px solid #656666;
+}
+html .card-container{
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+}
+html .card-title{
+    color:#D6F526;
+    font-size:28px;
+    font-weight: 800;
+}
+html .card-subtitle{
+    color:#fff;
+    font-size:18px;
+    font-weight: 800;
+    margin-bottom:15px;
+
+}
+html .card-text{
+    color:white;
+    font-size:15px;
+    margin-bottom: 5px;
+}
+html .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    margin-bottom: 0;
+}

@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body {
+    min-height: 100vh;
+    background-color: black;
+    margin: 54px 64px;
+}
+
+/* Header */
+html .header-css{
+    background-color: black;
+}
+
+html .logo, html .logo:visited {
+    font-size: 24px;
+    font-weight: 600;
+    color: white !important;
+    text-decoration: none !important;
+    cursor: pointer;  
+}
+
+html .green-span {
+    color: #E7FE58;
+}
+
+html .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+}
+
+html .nav-links li {
+    display: inline-block;
+    padding: 0 15px; 
+}
+
+html .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+html .nav-links li a:hover {
+    color: #F3FF95;
+}
+
+
+/* Hero */
+html .hero-title{
+    color:white;
+    font-size: 64px;
+    font-weight: 600;
+    margin-bottom:20px;
+
+}
+html .span-green{
+    color:#D6F525;
+}
+html .img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+html .box-hero{
+    margin-top: 230px;
+}
+html .hero-text{
+    font-size: 16px;
+    color:white;
+    font-weight: 500;
+    line-height: 1.7;
+    
+}
+html .button-hero{
+   margin-top:20px;
+}
+
+/* Features */
+html .text-box{
+    position: relative;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+html .text-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+html .feature-title{
+    color:#D6F526;
+    font-size: 36px;
+    font-weight: 500;
+}
+html .feature-text{
+    color:white;
+    font-size: 18px;
+    font-weight: 500;
+}
+html .card{
+    background-color: #0F1114;
+    border: 0.7px solid #656666;
+}
+html .card-title{
+    color:#D6F526;
+    font-size:24px;
+    font-weight: 500;
+}
+html .card-text{
+    color:white;
+}
+
+/* Info */
+html .box-hero{
+    margin-top: 170px;
+    margin-left: 60px;
+}
+html .hero-title{
+    color:white;
+    font-size: 64px;
+    font-weight: 600;
+    margin-bottom:20px;
+
+}
+html .span-green{
+    color:#D6F525;
+}
+html .img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+html .hero-text{
+    font-size: 16px;
+    color:white;
+    font-weight: 500;
+    line-height: 1.7;
+    
+}
+html .button-hero{
+   margin-top:20px;
+   margin-bottom:150px;
+}
+html .img-css{
+    border-radius: 10px;
+}
+html .container{
+    margin-top:30px;
+}
