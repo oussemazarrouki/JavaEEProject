@@ -20,6 +20,6 @@ To view and edit the project files, you can use any code editor such as Eclipse 
 5. Click <em>Finish</em> to import the project.
 
 ## Authors 👥
-- **Y0U5S3F** - [Y0U5S3F](https://github.com/Y0U5S3F)
-- **YoNexuss** - [YoNexuss](https://github.com/oussemazarrouki)
-- **Rippouzza** - [Rippouzza](https://github.com/Rippouzza)
+- **Youssef Saidani** - [Y0U5S3F](https://github.com/Y0U5S3F)
+- **Oussema Zarrouki** - [oussemazarrouki](https://github.com/oussemazarrouki)
+- **Rayen Ghileb** - [Rippouzza](https://github.com/Rippouzza)
